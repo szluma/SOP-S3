@@ -41,10 +41,12 @@ class FifoScheduler:
     
     
 scheduler = FifoScheduler
-
-
+scheduler.adicionar_processo(1, 5)
+scheduler.adicionar_processo(2, 3)
+scheduler.adicionar_processo(3, 8)
+scheduler.adicionar_processo(4, 6)
     
-
+scheduler.fifo_Scheduling()
     
 """ ALGORITMOS DE ESCALONAMENTOS SÃO ALGORITMOS A CURTO PRAZO. 
 (FIFO: PRIMEIRO PROCESSO A CHEGAR É O PRIMEIRO A SER EXECUTADO)
